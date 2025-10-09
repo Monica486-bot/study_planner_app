@@ -21,7 +21,7 @@ class StudyPlannerApp extends StatelessWidget {
       // Enhanced theme with better colors and typography
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF6366F1), // Modern indigo
+          seedColor: const Color.fromARGB(255, 10, 43, 231), // Modern indigo
           brightness: Brightness.light,
         ),
         useMaterial3: true,
